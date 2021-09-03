@@ -1,0 +1,68 @@
+<html>
+<head>
+
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="css/indexstyle.css">
+
+    
+
+
+</head>
+
+
+<body class="backgroud_home">
+
+
+    
+
+    <div class="container py-5 text  ">
+
+        <div>
+            <h1 class="m-auto w-50 mb-4 fs-1 ">Bookmark your favorite sites</h1>
+        </div>
+
+        <label  class=" form-label  ">Site Name</label>
+        <input id="book" class="form-control mb-4 " placeholder="Bookmark Name">
+
+        <label class="form-label">Site URL</label>
+        <input id="url" class="form-control mb-4" placeholder="website URL">
+
+       
+
+        <button onclick="addSite()" type="button" class="btn btn-info">Add Site</button>
+
+        <br><br>
+        <br> <br>
+
+        <table class="table">
+
+            <thead class="text-dark" >
+                <th>
+                    sitename
+                </th>
+                <th>
+                    siteurl
+                </th>
+                <th>
+                    delete
+                </th>
+            </thead>
+         
+            <tbody id="tBody">
+                
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="mine.js"></script>
+</body>
+
+
+</html>
